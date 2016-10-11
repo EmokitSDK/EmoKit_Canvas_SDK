@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CanvasViewController">
+            <connections>
+                <outlet property="canvasView" destination="wYA-bQ-9l5" id="nLe-QE-Q11"/>
+                <outlet property="clearBtn" destination="Fef-Wj-LIh" id="R6G-In-AYE"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FbJ-n9-c9s">
+                    <frame key="frameInset" width="600" height="88"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nq9-d2-qqL">
+                            <frame key="frameInset" minX="365" minY="11" width="80" height="65"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="情绪"/>
+                            <connections>
+                                <action selector="getEmotion:" destination="-1" eventType="touchUpInside" id="kcA-27-Wi4"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fef-Wj-LIh">
+                            <frame key="frameInset" minX="128" minY="11" width="80" height="65"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <state key="normal" title="清除"/>
+                            <connections>
+                                <action selector="clearAction:" destination="-1" eventType="touchUpInside" id="gec-2o-34C"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Fef-Wj-LIh" firstAttribute="centerY" secondItem="FbJ-n9-c9s" secondAttribute="centerY" id="Bfz-by-W5A"/>
+                        <constraint firstItem="Nq9-d2-qqL" firstAttribute="centerY" secondItem="FbJ-n9-c9s" secondAttribute="centerY" id="c5r-2i-vps"/>
+                        <constraint firstItem="Fef-Wj-LIh" firstAttribute="centerX" secondItem="FbJ-n9-c9s" secondAttribute="centerX" constant="-100" id="evw-Bo-OTp"/>
+                        <constraint firstAttribute="height" constant="88" id="jL1-rg-AMX"/>
+                        <constraint firstItem="Nq9-d2-qqL" firstAttribute="centerX" secondItem="FbJ-n9-c9s" secondAttribute="centerX" constant="100" id="z6Y-wd-UZr"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYA-bQ-9l5" customClass="CustomCanvasView">
+                    <frame key="frameInset" minY="88" width="600" height="512"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wYA-bQ-9l5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="7dd-ml-Kzy"/>
+                <constraint firstItem="wYA-bQ-9l5" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="bQt-DA-EhY"/>
+                <constraint firstItem="FbJ-n9-c9s" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="hVi-pd-uMX"/>
+                <constraint firstAttribute="bottom" secondItem="wYA-bQ-9l5" secondAttribute="bottom" id="yIO-qN-EqR"/>
+                <constraint firstItem="FbJ-n9-c9s" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zW8-Bq-kDP"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682CC5C61D892BE1009A2E17 /* CustomCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 682CC5C51D892BE1009A2E17 /* CustomCanvasView.m */; };
+		68EEAD2B1DAC996B003C9E24 /* libEmoKit_Canvas.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EEAD2A1DAC996B003C9E24 /* libEmoKit_Canvas.a */; };
+		68FBE1461D86B484006E3AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBE1451D86B484006E3AFF /* main.m */; };
+		68FBE1491D86B484006E3AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBE1481D86B484006E3AFF /* AppDelegate.m */; };
+		68FBE1511D86B484006E3AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FBE1501D86B484006E3AFF /* Assets.xcassets */; };
+		68FBE1541D86B484006E3AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FBE1521D86B484006E3AFF /* LaunchScreen.storyboard */; };
+		68FBE1601D86BA72006E3AFF /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FBE15E1D86BA72006E3AFF /* CanvasViewController.m */; };
+		68FBE1611D86BA72006E3AFF /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FBE15F1D86BA72006E3AFF /* CanvasViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		682CC5C41D892BE1009A2E17 /* CustomCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCanvasView.h; sourceTree = "<group>"; };
+		682CC5C51D892BE1009A2E17 /* CustomCanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCanvasView.m; sourceTree = "<group>"; };
+		68EEAD281DAC996B003C9E24 /* EMKCanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKCanvasView.h; sourceTree = "<group>"; };
+		68EEAD291DAC996B003C9E24 /* EmoKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmoKitManager.h; sourceTree = "<group>"; };
+		68EEAD2A1DAC996B003C9E24 /* libEmoKit_Canvas.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEmoKit_Canvas.a; sourceTree = "<group>"; };
+		68FBE1411D86B484006E3AFF /* EmoKitSDK_Canvas_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoKitSDK_Canvas_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FBE1451D86B484006E3AFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68FBE1471D86B484006E3AFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68FBE1481D86B484006E3AFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68FBE1501D86B484006E3AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68FBE1531D86B484006E3AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68FBE1551D86B484006E3AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68FBE15D1D86BA72006E3AFF /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		68FBE15E1D86BA72006E3AFF /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		68FBE15F1D86BA72006E3AFF /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68FBE13E1D86B484006E3AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EEAD2B1DAC996B003C9E24 /* libEmoKit_Canvas.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68EEAD251DAC996B003C9E24 /* libEmoKit_Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				68EEAD261DAC996B003C9E24 /* include */,
+				68EEAD2A1DAC996B003C9E24 /* libEmoKit_Canvas.a */,
+			);
+			path = libEmoKit_Canvas;
+			sourceTree = "<group>";
+		};
+		68EEAD261DAC996B003C9E24 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				68EEAD271DAC996B003C9E24 /* EmoKitSDK_Canvas */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		68EEAD271DAC996B003C9E24 /* EmoKitSDK_Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				68EEAD281DAC996B003C9E24 /* EMKCanvasView.h */,
+				68EEAD291DAC996B003C9E24 /* EmoKitManager.h */,
+			);
+			path = EmoKitSDK_Canvas;
+			sourceTree = "<group>";
+		};
+		68FBE1381D86B484006E3AFF = {
+			isa = PBXGroup;
+			children = (
+				68EEAD251DAC996B003C9E24 /* libEmoKit_Canvas */,
+				68FBE1431D86B484006E3AFF /* EmoKitSDK_Canvas_Demo */,
+				68FBE1421D86B484006E3AFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68FBE1421D86B484006E3AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FBE1411D86B484006E3AFF /* EmoKitSDK_Canvas_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68FBE1431D86B484006E3AFF /* EmoKitSDK_Canvas_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				68FBE15D1D86BA72006E3AFF /* CanvasViewController.h */,
+				68FBE15E1D86BA72006E3AFF /* CanvasViewController.m */,
+				68FBE15F1D86BA72006E3AFF /* CanvasViewController.xib */,
+				682CC5C41D892BE1009A2E17 /* CustomCanvasView.h */,
+				682CC5C51D892BE1009A2E17 /* CustomCanvasView.m */,
+				68FBE1471D86B484006E3AFF /* AppDelegate.h */,
+				68FBE1481D86B484006E3AFF /* AppDelegate.m */,
+				68FBE1501D86B484006E3AFF /* Assets.xcassets */,
+				68FBE1521D86B484006E3AFF /* LaunchScreen.storyboard */,
+				68FBE1551D86B484006E3AFF /* Info.plist */,
+				68FBE1441D86B484006E3AFF /* Supporting Files */,
+			);
+			path = EmoKitSDK_Canvas_Demo;
+			sourceTree = "<group>";
+		};
+		68FBE1441D86B484006E3AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68FBE1451D86B484006E3AFF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68FBE1401D86B484006E3AFF /* EmoKitSDK_Canvas_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FBE1581D86B484006E3AFF /* Build configuration list for PBXNativeTarget "EmoKitSDK_Canvas_Demo" */;
+			buildPhases = (
+				68FBE13D1D86B484006E3AFF /* Sources */,
+				68FBE13E1D86B484006E3AFF /* Frameworks */,
+				68FBE13F1D86B484006E3AFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmoKitSDK_Canvas_Demo;
+			productName = EmoKitSDK_Canvas_Demo;
+			productReference = 68FBE1411D86B484006E3AFF /* EmoKitSDK_Canvas_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68FBE1391D86B484006E3AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhan;
+				TargetAttributes = {
+					68FBE1401D86B484006E3AFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P7DCSZ7P5G;
+					};
+				};
+			};
+			buildConfigurationList = 68FBE13C1D86B484006E3AFF /* Build configuration list for PBXProject "EmoKitSDK_Canvas_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68FBE1381D86B484006E3AFF;
+			productRefGroup = 68FBE1421D86B484006E3AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68FBE1401D86B484006E3AFF /* EmoKitSDK_Canvas_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68FBE13F1D86B484006E3AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FBE1611D86BA72006E3AFF /* CanvasViewController.xib in Resources */,
+				68FBE1541D86B484006E3AFF /* LaunchScreen.storyboard in Resources */,
+				68FBE1511D86B484006E3AFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68FBE13D1D86B484006E3AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FBE1601D86BA72006E3AFF /* CanvasViewController.m in Sources */,
+				682CC5C61D892BE1009A2E17 /* CustomCanvasView.m in Sources */,
+				68FBE1491D86B484006E3AFF /* AppDelegate.m in Sources */,
+				68FBE1461D86B484006E3AFF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68FBE1521D86B484006E3AFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FBE1531D86B484006E3AFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68FBE1561D86B484006E3AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68FBE1571D86B484006E3AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68FBE1591D86B484006E3AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7DCSZ7P5G;
+				INFOPLIST_FILE = EmoKitSDK_Canvas_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libEmoKit_Canvas",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emokit.EmoKitSDK-Canvas-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		68FBE15A1D86B484006E3AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P7DCSZ7P5G;
+				INFOPLIST_FILE = EmoKitSDK_Canvas_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libEmoKit_Canvas",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emokit.EmoKitSDK-Canvas-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68FBE13C1D86B484006E3AFF /* Build configuration list for PBXProject "EmoKitSDK_Canvas_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FBE1561D86B484006E3AFF /* Debug */,
+				68FBE1571D86B484006E3AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68FBE1581D86B484006E3AFF /* Build configuration list for PBXNativeTarget "EmoKitSDK_Canvas_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FBE1591D86B484006E3AFF /* Debug */,
+				68FBE15A1D86B484006E3AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68FBE1391D86B484006E3AFF /* Project object */;
+}
